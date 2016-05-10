@@ -8,13 +8,17 @@
 	<h1>Lab 3 tasks</h1>
 	<!-- Task 1: Favorite Artists (Arrays) -->
 	<!-- write your solution to Task 1 here -->
-    <?php
-    $artists= array("Britney Spears", "Christina Aguilera", "Justin Bieber");
 
-    ?>
 	<div class="section">
 		<h2>Task 1: My Favourite Artists using Array</h2>
-		
+      <?php
+      $artists= array("Britney Spears", "Christina Aguilera", "Justin Bieber");
+      array_push($artists, "Lady Gaga");
+
+      foreach($artists as $value){
+        print "name: $value \n";
+      }
+      ?>
 	</div>
 		
 	<!-- Task 2: using functions -->
